@@ -1,6 +1,6 @@
 import {inject, Injectable} from "@angular/core";
 import { HttpClient, HttpContext } from "@angular/common/http";
-import {environment} from "../../environments/environment";
+import {environment} from "../../environments/environment.development";
 import {firstValueFrom, Observable} from "rxjs";
 import {Course} from "../models/course.model";
 import {GetCoursesResponse} from "../models/get-courses.response";
